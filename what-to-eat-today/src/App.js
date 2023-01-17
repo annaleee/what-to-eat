@@ -4,7 +4,7 @@ import React,{ useState } from 'react';
 
 function App() {
   const menu = ['热干面拌一切','泡菜饼','有啥拌啥饭','有啥丢啥汤面','有啥丢啥味增汤']
-  const rest = ['China Palace','老地方','No Thai','碧都','Lan city','One Bowl']
+  const rest = ['China Palace','老地方','No Thai','碧都','Lan city','One Bowl','火锅陈']
   const [result,setResult] = useState('');
 
   function generateRest(){
